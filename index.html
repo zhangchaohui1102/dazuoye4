@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>英华逸游</title>
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body data-spy="scroll" data-target="#navid">
+    <div class="wrapper">
+        <!-- 头部 -->
+        <div class="topDiv">
+            <!-- 顶部黑条 -->
+            <div id="blackTopId" class="blackTopDiv">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8"></div>
+                        <div class="col-md-2">
+                            <a href="#"><img src="img/tell.png" alt="tell">&nbsp;&nbsp;400-808-8682</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#">请登录&nbsp;&nbsp;|</a><a href="#">&nbsp;&nbsp;注册</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 导航栏 -->
+            <div id="navDivId" class="navDiv">
+                <nav id="navId" class="navbar navbar-default container" role="navigation">
+                    <div class="navbar-header">
+                        <button id="navBtnId" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navid">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a id="navBraId" href="#" class="navbar-branda"><img src="img/logo.png" alt="logo"></a>
+                        <input id="btnInput" type="button" class="btn" value="快速定制">
+                    </div>
+                    <div class="collapse navbar-collapse" id="navid">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#top">首页</a></li>
+                            <li><a href="#remen">热门路线</a></li>
+                            <li><a href="#qianzheng">签证推荐</a></li>
+                            <li><a href="#shimingId">使命愿景</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+        <div id="top" class="slideImgDiv">
+            <div id="generic" class="carousel slide" data-ride="carousel">
+                <div id="innerDivId" class="carousel-inner">
+                    <div class="item active">
+                        <img alt="First slide" src="img/banner.jpg">
+                        <div id="captionId1" class="carousel-caption">
+                            <h1>悠游古欧洲 遍览德法瑞意</h1>
+                            <div id="pDivId1" class="pDiv">
+                                <p>巴黎卢浮宫、塞纳河游船、凡尔赛宫</p>
+                                <p>少女宫、大运河游船、金色列车、西庸城堡</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form id="formId" action="#" class="form-horizontal">
+                        <div id="formGroupId" class="form-group">
+                            <input id="btnId1" class="btn" type="button" value="目的地" >
+                            <input id="txtInputId" class="txt" type="text" placeholder="&nbsp;&nbsp;|&nbsp;&nbsp;日本&nbsp;&nbsp;美国&nbsp;&nbsp;英国&nbsp;&nbsp;地中海">
+                            <input id="btnId2" class="btn" type="button">
+                        </div>
+                </form>
+            </div>
+        </div>
+
+        
+        <div id="smallSlideImgDiv" class="container">
+            <div id='rightDivId' class="rightDiv">
+                <img src="img/car.png" alt="carImg">
+                <p>车辆接送</p>
+                <input type="button" class="btn" value="查看详情">
+            </div>
+            <div id="generic1" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img alt="First slide" src="img/Sbanner2.jpg">
+                        <div class="carousel-caption">
+                            <h1>机场接送 省钱省心</h1>
+                            <div class="pDiv">
+                                <p>提供上海、苏州、无锡各市</p>
+                                <p>往返机场、码头接送服务、更有包车服务</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <!-- 热门路线 -->
+        <div id="remen" class="navFirstDiv container">
+            <div id="tiId">
+                <div id="hideTiDivId1"><span id="iconId2">|</span><span id="spanDivId2">热门路线</span></div>
+                <div id="titleId1">
+                    <h1>热&nbsp;门&nbsp;线&nbsp;路</h1>
+                    <p>Popular tourist routes</p>
+                </div>
+            </div>
+            <div id="hiddenPho" class="row">
+                <div class="col-md-12"> 
+                    <div id="content1">
+                        <img src="img/hot1.jpg" alt="hot1Img">
+                        <div id="shadowx">
+                            <h6>海南三亚5天4晚，纯玩、4晚红树林度假王国</h6><h5>¥2580／人起</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12"> 
+                    <div id="content2">
+                        <img src="img/hot2.jpg" alt="hot1Img">
+                        <div id="shadowy">
+                            <h6>德法意瑞欧洲4国，ABCD任意线路由您挑选</h6><h5>¥7999／人起</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="phoId" class="photoDiv row">
+                <div class="leftPhoto col-md-6">
+                    <div class="imgIntroduct">
+                        <img src="img/hot1.jpg" alt="hot1Img">
+                        <div class="shadow1">
+                            <h4>海南三亚5天4晚，纯玩、4晚红树林度假王国</h4>
+                            <h3>¥2580／人起</h3>
+                        </div>
+                    </div>
+                    <div class="imgIntroduct">
+                        <img src="img/hot2.jpg" alt="hot2Img">
+                        <div class="shadow1">
+                            <h4>德法意瑞欧洲4国，ABCD任意线路由您挑选</h4>
+                            <h3>¥7999／人起</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightPhoto col-md-6">
+                    <div class="imgIntroduct">
+                        <img src="img/hot3.jpg" alt="hot3Img">
+                        <div class="shadow2">
+                            <h4>曼谷+芭提雅 国际五星，赠送2220大礼包，绝无自费</h4>
+                            <h3>¥2799／人起</h3>
+                        </div>
+                    </div>
+                    <div class="imgIntroduct">
+                        <img src="img/hot4.jpg" alt="hot4Img">
+                        <div class="shadow2">
+                            <h4>日本本州游 樱花、寿司、温泉、美食</h4>
+                            <h3>¥5399／人起</h3>
+                        </div>
+                    </div>
+                    <div class="imgIntroduct">
+                        <img src="img/hot5.jpg" alt="hot5Img">
+                        <div class="shadow2">
+                            <h4>斯里兰卡7天6晚全景游   保证入住2晚香格里拉</h4>
+                            <h3>¥7999／人起</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="btn2" class="photoBottomBtn">
+                <input type="button" class="btn" value="查看更多 >">
+            </div>
+        </div>
+        
+        <!-- 使命与愿景 -->
+        <div id="shimingId">
+        <div class="navThirdDiv container">
+            <div class="titleDiv">
+                <div id="titleDiv"><span id="iconId">|</span><span id="spanDivId">使命与愿景:</span><span>让旅游回归本质，体验纯粹旅游</span></div>
+                <div id="titleId">
+                    <h1 id="shiH1">使命与愿景</h1>
+                    <p>让旅游回归本质，体验纯粹旅游</p>
+                </div>
+            </div>
+            <div id="rowId" class="row">
+                <div id="misDivId1" class="col-md-12"><img src="img/mission1.jpg" alt="leftImg"></div>
+                <div id="hidMisDivId1" class="left col-md-5"><img src="img/mission1.jpg" alt="leftImg"></div>
+                <div id="introDivId" class="col-md-12 container">
+                    <div id="innerDiv">
+                        <h2>--服务理念及优势--</h2>
+                        <p>“英华逸游”通过重新打造旅游全程中的产品线路设计、出行交通方案、陪游向导服务、增值关怀项目等，为客户提供高品质的旅游体验。英华逸
+                        游在泰国、欧洲、等多个国家拥有丰富的旅游资源，同时致力于给用户提供性价比高的产品和服务。</p>
+                    </div>
+                </div>
+                <div id="hidInnerDiv" class="right col-md-7">
+                    <h2>服务理念及优势</h2>
+                    <p>“英华逸游”通过重新打造旅游全程中的产品线路设计、出行交通方案、</p>
+                    <p>陪游向导服务、增值关怀项目等，为客户提供高品质的旅游体验。英华逸</p>
+                    <p>游在泰国、欧洲、等多个国家拥有丰富的旅游资源，同时致力于给用户提</p>
+                    <P>供性价比高的产品和服务。</p>
+                </div>
+            </div>
+            <div id="innerImgId" class="row rowDiv2">
+                <div class="col-md-12">
+                    <img src="img/mission2.jpg" alt="mis2Img" class="img-reponsitive">
+                </div>
+            </div>
+            <div id="hiddenRowId" class="container">
+                <h2>--服务优势--</h2>
+                <div id="youshiDivId" class="row">
+                    <div class="col-md-12">
+                        <div id="imgIconDivId1"><img src="img/icon11.png"></div>
+                        <div id="pDivId11"><p>旅游达人精心设计、基于口碑反复打磨， 告别人山人海鸡肋景点。 全网最好，敢跟任何产品比</p></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="imgIconDivId2"><img src="img/icon22.png"></div>
+                        <div id="pDivId22"><p>不推自费， 不进垃圾购物店和伪景点</p></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="imgIconDivId3"><img src="img/icon33.png"></div>
+                        <div id="pDivId3"><p>独立成团不散拼， 只跟亲朋好友一起玩，每天发团 </p></div>
+                    </div>
+                </div>
+            </div>
+            <div id="lastRowId" class="row rowDiv3">
+                <div class="col-md-4 ro1">
+                    <img src="img/icon1.png">
+                    <p class="titleP">品质行程</p>
+                    <p class="textP">旅游达人精心设计、基于口碑反复打磨，全网最好，敢跟任何产品比</p> 
+                </div>
+                <div class="col-md-4">
+                    <img src="img/icon2.png">
+                    <p class="titleP">品质小团</p>
+                    <p class="textP">不推自费，不进垃圾购物店和伪景点&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                </div>
+                <div class="col-md-4">
+                    <img src="img/icon3.png">
+                    <p class="titleP">品质消费</p>
+                    <p class="textP">独立成团不散拼，只跟亲朋好友一起玩，每天发团 </p> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- 尾部 -->
+        <div id="tailDivId" class="tailDiv container">
+            <div id="tailROWId1" class="row">
+                <div class="col-md-2 botTitle">合作伙伴</div>
+                <div class="col-md-2"><img src="img/xiecheng.png" alt="logo1"><p>携程网</p></div>
+                <div class="col-md-2"><img src="img/feizhu.png" alt="logo2"><p>阿里飞猪</p></div>
+                <div class="col-md-2"><img src="img/quna.png" alt="logo3"><p>去哪儿</p></div>
+                <div class="col-md-2"><img src="img/suzhou.png" alt="logo3"><p class="lastP">苏州旅游局</p></div>
+            </div>
+            <div id="tailROWId2" class="row">
+                <div class="col-md-2 botTitle">热门位置</div>
+                <div class="col-md-10">
+                    <ul>
+                        <li>韩国</li><li>日本</li><li>菲律宾</li><li>越南</li><li>老挝</li><li>柬埔寨</li><li>泰国</li>
+                        <li>马来西亚</li><li>新加坡</li><li>印度尼西亚</li><li>印度</li><li>斯里兰卡</li>
+                        <li>土耳其</li><li>阿联酋</li><li>西班牙</li><li>意大利</li>
+                        <li>希腊</li><li>法国</li><li>比利时</li><li>荷兰</li>
+                        <li>英国</li><li>瑞士</li><li>奥地利</li><li>德国</li>
+                        <li>匈牙利</li><li>俄罗斯</li><li>捷克</li><li>芬兰</li>
+                        <li>葡萄牙</li><li>冰岛</li><li>美国</li><li>加拿大</li>
+                        <li>巴西</li><li>阿根廷</li><li>澳大利亚</li><li>新西兰</li>
+                                                   
+                    </ul>
+                </div>
+            </div>
+            <div id="tailROWId4" class="row lastRow">
+                <div class="col-md-2 botTitle">主题服务</div>
+                <div class="col-md-10">
+                    <ul>
+                        <li>海岛度假</li>
+                        <li>历史文化</li>
+                        <li>探索冒险</li>
+                        <li>美食购物</li>
+                        <li>都市生活</li>
+                        <li>海外游学</li>
+                        <li>邮轮度假</li>
+                        <li>蜜月摄影</li>
+                        <li>亲子乐园</li>  
+                    </ul>                               
+                </div>
+            </div>
+            <div id="tailROWId3" class="row">
+                <div class="col-md-2 botTitle">友情链接</div>
+                <div class="col-md-10">
+                    <ul>
+                        <li>马蜂窝</li><li>穷游</li><li>booking</li>
+                        <li>苏州旅游局</li><li>驴友网</li><li>吾爱全球签证中心</li>
+                        <li>酒店团购</li><li>携程旅游攻略</li><li>天巡职航在线</li> 
+                        <li>满天飞旅游网</li><li>中国旅游网</li><li>澳乐网</li> 
+                        <li>背包兔旅游行程</li><li>出境旅游</li><li>国际酒店</li> 
+                        <li>广州旅行社</li><li>出境旅游</li><li>517旅行</li> 
+                        <li>花生游</li><li>家园网</li><li>海外婚礼</li>                      
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="hiddenP">
+                        <p id="firstP">苏ICP备号、2020</p>
+                        <p>2020 @苏州英华国际旅游有限公司 版权所有</p>
+                        <p>技术支持  杭州科技</p>
+                    </div>
+                    <p id="lastP">2020 @苏州英华国际旅游有限公司 版权所有</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // 悬浮
+        window.onload = function(){
+            let head = document.getElementsByClassName('topDiv')[0];
+            window.onscroll = function(){
+                let st = document.documentElement.scrollTop || document.body.scrollTop;
+                if(st > 180){
+                    head.style.position = 'fixed';
+                }else{
+                    head.style.position = 'relative';
+                }
+            }
+        }
+    </script>
+</body>
+</html>
